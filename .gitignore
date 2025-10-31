@@ -1,0 +1,151 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Jupyter Notebook outputs (optional - uncomment if you want to exclude output)
+# *.ipynb
+
+# pyenv
+.python-version
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj.user/
+*.Rhistory
+*.RData
+*.Ruserdata
+.Rproj.user/
+
+# Results and Output
+results/
+outputs/
+*.png
+*.jpg
+*.pdf
+*.svg
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.pb
+*.sav
+
+# Data directories (uncomment if data is large or sensitive)
+# data/
+# data/raw/
+# data/processed/
+
+# Model files (uncomment if models are large)
+# models/
+# saved_models/
+
+# Logs
+*.log
+logs/
+tensorboard_logs/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Conda
+.conda/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IPython
+.ipython/
+
+# Keep important result examples (optional - create a results/examples/ folder)
+# !results/examples/
+
+# Analysis outputs that should be regenerated
+analysis_results.json
+r_session_info.txt
+
+# Excluded documentation files (assignment-specific, not for public repository)
+Scientific_Blog_Post.md
+Guidelines_Research_Paper_Review.ipynb
+
+# Keep README and documentation
+!README.md
+!*.md
+!FILES_TO_PUSH.md
+!GITHUB_PUSH_GUIDE.md
+
