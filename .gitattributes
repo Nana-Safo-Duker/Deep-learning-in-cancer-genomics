@@ -1,0 +1,26 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Jupyter Notebooks - ensure proper handling
+*.ipynb text eol=lf
+
+# Python files
+*.py text eol=lf
+*.pyw text eol=lf
+
+# R files
+*.R text eol=lf
+*.r text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# Configuration files
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Prevent line ending issues on different platforms
+*.sh text eol=lf
+*.bat text eol=crlf
+
